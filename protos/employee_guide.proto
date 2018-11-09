@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+package employee;
+
+
+service EmployeeGuide{
+  rpc GetOneEmployee(ID) returns (Employee) {}
+  rpc GetEmployees(ID) returns (stream Employee) {}
+  rpc putEmployee(Employee) returns (Log) {}
+  rpc deleteEmployee(ID) returns (Log) {}
+}
+
+message ID{
+  int32 number = 1;
+}
+
+message Employee{
+
+  ID id  = 1;
+  string name = 2;
+  string designation = 3;
+  float salary = 4;
+
+}
+
+message Log{
+  string msg  = 1;
+}

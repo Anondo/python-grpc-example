@@ -1,0 +1,26 @@
+[
+    {
+        "id":{
+            "number":1
+        },
+        "name":"Jason",
+        "designation":"Sr. Software Engineer",
+        "salary":650000
+    },
+    {
+        "id":{
+            "number":2
+        },
+        "name":"Grayson",
+        "designation":"Sr. Software Engineer",
+        "salary":650000
+    },
+    {
+        "id":{
+            "number":3
+        },
+        "name":"Damien",
+        "designation":"Software Engineer",
+        "salary":250000
+    }
+]
